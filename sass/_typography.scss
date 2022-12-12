@@ -1,0 +1,48 @@
+.mb-sml {
+    margin-bottom: 0.8rem
+}
+.mb-md {
+    margin-bottom: 1.2rem;
+}
+.mb-lr {
+    margin-bottom: 2rem;
+}
+.mb-lr {
+    margin-bottom: 4rem
+}
+
+h2 {
+    font-family: $font-display;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: $font-display;
+}
+
+h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-primary;
+    font-weight: 600;
+}
+
+.btn {
+
+    &:link,
+    &:visited {
+        display: inline-block;
+        background-color: $color-primary;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        padding: 1.4rem 4rem;
+        transition: all .5s;
+    }
+
+    &:hover,
+    &:active {
+        background-color: $color-secondary;
+    }
+
+}
